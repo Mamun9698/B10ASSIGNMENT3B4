@@ -3,14 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://kit.fontawesome.com/7f40522101.js" crossorigin="anonymous"></script>
+    <title>Rinterio</title>
+    <!-- google font cdn -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-    <title>RINTERIO</title>
+
+    <!-- font awesome cdn -->
+    <script src="https://kit.fontawesome.com/7f40522101.js" crossorigin="anonymous"></script>
+
+    <!-- tailwindcss cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
 </head>
 <body>
-    
+    <!--Main container-->
+    <main class=" max-w-screen-xl mx-auto px-16 lg:px28 my-8 bg-[#f4f4f4]">
+        <!-- Manue bar -->
+        <div class="flex justify-around pt-5 align-middle">
+            <div>
+                <h1 class="font-bold"><i class="fa-solid fa-arrow-right rounded-full bg-lime-300 py-1 px-1 -rotate-45"></i> Rinterio</h1>
+            </div>
+            <!-- diffrent services -->
+             <div>
+                <ul class="flex space-x-4">
+                    <li class="font-bold">Home</li>
+                    <li>Services</li>
+                    <li>Protfolio</li>
+                    <li>Blogs</li>
+                    <li>Contact us</li>
+                </ul>
+             </div>
+             <!--search shoping cart book consult -->
+             <div class="space-x-4 pb-3 ">
+                <i class="fa-solid fa-magnifying-glass bg-white rounded-full px-2 py-2"></i>
+                <i class="fa-solid fa-cart-shopping bg-white rounded-full px-2 py-2"></i>
+                <button class="bg-green-400 px-3 py-2 rounded-full">Book Consult <i class="fa-solid fa-arrow-right rounded-full bg-black py-1 px-1 -rotate-45 text-white"></i></button>
+             </div>
+        </div>
+        <!-- Brand House -->
+         <div>
+            <!-- Home picture -->
+            <div class="flex justify-center items-center pt-8">
+                <img src="/assets/banner.png" alt="Home image">
+            </div>
+            <!-- Text Area -->
+            <p class="text-center font-extrabold text-4xl pt-8">A barn house of this design has a <br> striking appearance</p>
+            <h4 class="text-center pt-8">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.</h4>
+            <!-- Button -->
+            <div class="flex justify-center items-center pt-8">
+                <button class="bg-lime-200 px-3 py-2 rounded-full">View Details <i class="fa-solid fa-arrow-right rounded-full bg-[#ABEF5F] py-1 px-1 -rotate-45 text-white"></i></button>
+            </div>
+         </div>
+    </main>
 </body>
 </html>
